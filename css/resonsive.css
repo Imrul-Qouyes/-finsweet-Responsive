@@ -1,0 +1,591 @@
+  /* =====================================
+          For Extra Large Device
+======================================== */
+
+@media (max-width: 1399.98px) { 
+
+  /* =====================================
+            Inquiry Part Start
+  ======================================== */
+    #inquiry-part .inquiry-btn {
+        margin-top: 35px !important;
+    } 
+    
+  /* =====================================
+            Inquiry Part End
+  ======================================== */
+     
+  }
+ 
+ /* =====================================
+          For Large Device
+======================================== */
+
+@media (max-width: 1199.98px) { 
+ 
+  /* =====================================
+           Inquiry Part Start
+ ======================================== */
+ #inquiry-part .inquiry-overlay h2 {
+     font-size: 45px !important;
+ 
+ }
+ 
+ #inquiry-part .inquiry-form p {
+   font-size: 15px !important;
+   line-height: 26px !important;
+ }
+ #inquiry-part .all-input::placeholder {
+   font-size: 13px !important;
+ }
+ 
+  /* =====================================
+           Inquiry Part End
+ ======================================== */
+   
+ }
+/* ================================
+        For Medium Device
+=================================== */
+
+@media (max-width: 991.98px) { 
+
+/* ================================
+        Navbar part start
+=================================== */
+li.nav-item {    
+    text-align: center;
+    margin: 7px 0px;
+    border-radius: 5px;
+    background-color: var(--colorYellow);
+}
+
+#navbar-part ul li a {
+  color: #000000 !important;
+}
+
+#navbar-part .nav-contactbtn {
+  padding: 10px 0px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+/* ====================================
+          Navbar part End
+  ===================================== */
+
+/* ====================================
+          Hero part Start
+======================================= */
+
+#hero-part h1 {
+  font-size: 33px !important;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#hero-part p {
+text-align: center;
+margin-bottom: 15px;
+padding-right: 0px !important;
+}
+
+#hero-part .viewwork-btn {
+padding: 5px 30px;
+}
+
+/* ====================================
+          Hero part End
+======================================= */
+
+/* ====================================
+          Work Part Start
+======================================= */
+
+#work-part h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#work-part .work-description {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-right: 0px !important;
+}
+
+#work-part .point-head {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#work-part .point-description {
+  margin-top: 15px;
+  text-align: center;
+}
+/* ====================================
+          Work Part End
+======================================= */
+
+/* =====================================
+        Project part Start
+======================================== */
+#project-part h2 {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+/* =====================================
+        Project part End
+======================================== */
+
+/* =====================================
+        Features part Start
+======================================== */
+
+#feature-part .feature-head p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#feature-part .feature-head h2 {
+  font-size: 40px !important;
+}
+
+#feature-part .feature-thumbs p {
+  font-size: 14px !important;
+  text-align: center;
+}
+/* =====================================
+        Features part End
+======================================== */
+
+/* =====================================
+        Our Clients part Start
+======================================== */
+
+#ourclients-part .clients-title h2 {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+#ourclients-part .clients-title p {
+  text-align: center;
+  margin-bottom: 15px;
+ 
+}
+
+#ourclients-part .clients-qoutes h3 {
+  font-size: 22px !important;
+  margin-bottom: 25px;
+  text-align: center;
+}
+/* =====================================
+        Our Clients part End
+======================================== */
+
+/* =====================================
+        FAQ part Start
+======================================== */
+
+#faq-part .faq-accordion .accordion-body {
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+/* =====================================
+        FAQ part End
+======================================== */
+
+/* =====================================
+        Inquiry part Start
+======================================== */
+
+#inquiry-part .inquiry-overlay h2 {
+  font-size: 44px !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* =====================================
+        Inquiry part End
+======================================== */
+}
+
+
+
+/* =====================================
+          For Small Device
+======================================== */
+
+@media (max-width: 767.98px) {
+
+  /* ====================================
+            Work Part Start
+  ======================================= */
+  #work-part .work-description {
+      font-size: 13px !important;
+  }
+  
+  /* ====================================
+            Work Part End
+  ======================================= */
+  
+  /* ====================================
+            Clients Part Start
+  ======================================= */
+  
+  #ourclients-part .clients-title h2 {
+    font-size: 35px !important;
+    text-align: center;
+    margin-top: 40px;
+  
+  }
+  
+  #ourclients-part .clients-qoutes h3 {
+    font-size: 20px !important;
+    line-height: 32px !important;
+  }
+  
+  /* ====================================
+            Clients Part End
+  ======================================= */
+
+
+  /* ====================================
+            Inquiry Part Start
+  ======================================= */
+
+#inquiry-part .inquiry-overlay h2 {
+    font-size: 32px !important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#inquiry-part .inquiry-overlay p {
+  font-size: 15px !important;
+  text-align: center;
+  font-weight: 400 !important;
+}
+  /* ====================================
+            Inquiry Part End
+  ======================================= */
+
+  /* ====================================
+            Footer Part Start
+  ======================================= */
+
+  #footer-part .footer-logo-title {
+    font-size: 13px !important;
+    margin-bottom: 15px;
+}
+  /* ====================================
+            Footer Part End
+  ======================================= */
+
+  
+}
+
+
+/* =====================================
+          For Extra-Small Device
+======================================== */
+
+@media (max-width: 575.98px) {
+
+/* ====================================
+          Hero part Start
+======================================= */
+#hero-part h1 {
+  font-size: 21px !important;
+  margin: 20px 0px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#hero-part p {
+  font-size: 11px !important;
+  font-weight: 400; 
+  line-height: 15px !important;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#hero-part .viewtwos {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+#hero-part .viewwork-div {
+  margin-bottom: 10px;
+}
+
+#hero-part .viewprice-div {
+  margin-bottom: 20px;
+}
+#hero-part .viewwork-div a {
+  font-size: 15px;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+
+#hero-part .viewprice-div a {
+  color: #000000;
+  padding: 2px 27px;
+  background: var(--colorYellow);
+  font-size: 15px;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+
+#hero-part .viewprice-div i {
+  margin-left: 4px;
+}
+#hero-part .viewprice-div a:hover {
+  color: #000000;
+  background-color: #fccb51;
+}
+
+
+/* ====================================
+          Hero part End
+======================================= */
+
+/* ====================================
+          Work part Start
+======================================= */
+
+#work-part h2 {
+  font-size: 35px !important;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#work-part .work-description {
+  font-size: 12px !important;
+  line-height: 15px !important;
+}
+
+#work-part .getintouch-link {
+  font-size: 15px !important;
+  margin-bottom: 25px;
+}
+
+#work-part .point-head {
+  font-size: 24px !important;
+}
+
+#work-part .point-description {
+  font-size: 14px !important;
+  line-height: 25px !important;
+  margin-bottom: 30px;
+}
+
+#work-part .col-sm-6 {
+  background-color: #fccb51;
+  gap: 9px !important;
+}
+/* ====================================
+          Work part End
+======================================= */
+
+/* ====================================
+          View Project part Start
+======================================= */
+#project-part h2 {
+  font-size: 35px !important;
+}
+
+#project-part .viewmore-btn {
+  font-size: 14px !important;
+}
+
+#project-part .project-overlay1 h3 {
+  font-size: 14px !important;
+  margin-bottom: 10px;
+}
+
+#project-part .project-overlay1 p {
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  line-height: 14px !important;
+  margin-bottom: 10px;
+}
+
+#project-part .project-overlay1 .viewproject-link {
+  font-size: 12px !important;
+}
+
+#project-part .project-card2 .project-overlay2 h3 {
+  font-size: 18px !important;
+  margin-bottom: 10px;
+}
+
+#project-part .project-card2 .project-overlay2 .viewporfolio-link {
+  font-size: 14px !important;
+}
+
+#feature-part .feature-head h2 {
+  font-size: 24px !important;
+  margin-bottom: 30px;
+}
+
+#feature-part .feature-thumbs h3 {
+  font-size: 22px !important;
+}
+
+#feature-part .feature-thumbs p {
+  font-size: 13px !important;
+  text-align: justify;
+  text-align-last: center;
+}
+/* ====================================
+          View Project part End
+======================================= */
+
+/* ====================================
+          Clients part Start
+======================================= */
+#ourclients-part .clients-title h2 {
+  font-size: 21px !important;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#ourclients-part .clients-title p {
+  font-size: 13px !important;
+  line-height: 18px !important;
+}
+
+#ourclients-part .clients-qoutes h3 {
+  font-size: 15px !important;
+  line-height: 26px !important;
+}
+
+/* ====================================
+          Clients part End
+======================================= */
+
+/* ====================================
+          FAQ part Start
+======================================= */
+#faq-part .faq-title h2 {
+  font-size: 23px !important;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  font-size: 14px !important;
+}
+
+#faq-part .faq-accordion span {
+  font-size: 18px !important;
+}
+
+#faq-part .faq-accordion .accordion-body {
+  font-size: 11px !important;
+  line-height: 20px !important;
+}
+/* ====================================
+          FAQ part End
+======================================= */
+
+/* ====================================
+          Inquiry part Start
+======================================= */
+
+#inquiry-part .inquiry-overlay h2 {
+  font-size: 25px !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#inquiry-part .inquiry-overlay p {
+  font-size: 12px !important;
+  text-align: center;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+  padding: 0 12px !important;
+}
+
+#inquiry-part .inquiry-form p {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+
+}
+
+#inquiry-part .inquiry-btn {
+  font-size: 14px !important;
+  font-weight: 600;
+  border-radius: 41px;
+  padding: 12px 60px !important;
+}
+
+#inquiry-part .getintouch-link {
+  font-size: 13px !important;
+}
+
+#inquiry-part .all-input::placeholder {
+  font-size: 13px !important;
+}
+
+/* ====================================
+          Inquiry part End
+======================================= */
+
+/* ====================================
+          Blog part Start
+======================================= */
+
+#blog-part .blog-head h2 {
+  font-size: 38px !important;
+}
+#blog-part .blog-thumb .blog-date {
+  font-size: 13px !important;
+}
+#blog-part .blog-thumb h4 {
+  font-size: 16px !important;
+}
+
+#blog-part .blog-thumb .blog-details {
+  font-size: 12px !important;
+  line-height: 19px !important;
+}
+
+#blog-part .blog-thumb .readmore-link {
+  font-size: 14px !important;
+}
+/* ====================================
+          Blog part End
+======================================= */
+
+/* ====================================
+          Footer-End part Start
+======================================= */
+#footer-part .social-area h2 {
+  font-size: 40px !important;
+}
+
+#footer-part .social-area p {
+  font-size: 13px !important;
+  line-height: 25px !important;
+}
+
+/* ====================================
+          Footer-End part End
+======================================= */
+
+
+ }
+
+
+
+
+

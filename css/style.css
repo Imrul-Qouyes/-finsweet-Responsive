@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&Manrope:wght@300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+div,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  --Tint-blue: #1C1E53;
+  --navItemColor: #BBBBCB;
+  --borderRadiusColor: #f4f6fc5e;
+  --heroBtnTextColor: #1B1C2B;
+  --poppinsFont: 'Poppins', sans-serif;
+  --manropeFont: 'Manrope', sans-serif;
+  --colorWhite: white;
+  --colorYellow: #FCD980;
+  --Dark-blue: #282938;
+  --secondBlue: #2405F2;
+  --firstBGColor: #F4F6FC;
+  --dividerBGColor: #D9D9D9;
+
+}
+
+/* ================================
+        Navbar part start
+=================================== */
+
+#navbar-part {
+  background-color: var(--Tint-blue);
+}
+
+#navbar-part ul li a {
+  color: var(--navItemColor);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#navbar-part .tog-btn {
+  background-color: var(--colorYellow);
+}
+#navbar-part .tog-btn:focus {
+  box-shadow: none;
+}
+
+#navbar-part ul li a:hover {
+  color: var(--colorWhite);
+}
+
+#navbar-part .nav-contactbtn {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 41px;
+  border: 2px solid var(--borderRadiusColor);
+  transition: all ease-in-out .2s;
+  -webkit-transition: all ease-in-out .2s;
+  -moz-transition: all ease-in-out .2s;
+  -ms-transition: all ease-in-out .2s;
+  -o-transition: all ease-in-out .2s;
+}
+
+#navbar-part .nav-contactbtn:hover {
+  background-color: var(--borderRadiusColor);
+}
+
+/* ====================================
+          Navbar part End
+  ===================================== */
+
+/* ====================================
+          Hero part Start
+======================================= */
+
+#hero-part {
+  background-color: var(--Tint-blue);
+}
+
+#hero-part h1 {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 54px;
+  font-weight: 600;
+}
+
+#hero-part p {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-right: 62px;
+}
+
+#hero-part .viewwork-btn {
+  color: var(--heroBtnTextColor);
+  font-family: var(--manropeFont);
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--colorYellow);
+}
+
+#hero-part .viewwork-btn:hover {
+  background-color: #fccb51
+}
+
+#hero-part .viewprice-btn {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#hero-part .viewprice-btn:hover {
+  color: aquamarine;
+}
+
+#work-part {
+  background-color: var(--firstBGColor);
+}
+
+#work-part h2 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#work-part .work-description {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-right: 52px;
+}
+
+#work-part .getintouch-link {
+  color: var(--secondBlue);
+  font-family: var(--poppinsFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#work-part .getintouch-link:hover {
+  color: #ff4800;
+}
+
+#work-part .point-head {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#work-part .point-description {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+/* ====================================
+          Hero part End
+======================================= */
+
+/* =====================================
+        Project part Start
+======================================== */
+#project-part h2 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#project-part .viewmore-btn {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#project-part .viewmore-btn:hover {
+  color: blueviolet;
+}
+
+#project-part .project-overlay1 {
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  left: -50%;
+  z-index: -1;
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+}
+
+#project-part .project-card1:hover .project-overlay1 {
+  left: 0;
+  z-index: 1;
+}
+
+#project-part .project-overlay1 h3 {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#project-part .project-overlay1 p {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+#project-part .project-overlay1 .viewproject-link {
+  color: var(--colorYellow);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#project-part .project-overlay1 .viewproject-link:hover {
+  color: black;
+}
+
+#project-part .project-card2 .project-overlay2 {
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+
+}
+
+#project-part .project-card2 .project-overlay2 {
+  right: -100%;
+  z-index: -1;
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+}
+
+#project-part .project-card2:hover .project-overlay2 {
+  right: 0;
+  z-index: 1;
+
+}
+
+#project-part .project-card2 .project-overlay2 h3 {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#project-part .project-card2 .project-overlay2 .viewporfolio-link {
+  color: var(--colorYellow);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#project-part .project-card2 .project-overlay2 .viewporfolio-link:hover {
+  color: black;
+}
+
+#project-part .project-card3 .project-overlay3 {
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+
+}
+
+#project-part .project-card3 .project-overlay3 {
+  right: -100%;
+  z-index: -1;
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+}
+
+#project-part .project-card3:hover .project-overlay3 {
+  right: 0;
+  z-index: 1;
+
+}
+
+/* ======================================
+            Project part End
+========================================= */
+
+/* ======================================
+          Features part Start
+========================================= */
+#feature-part {
+  background-color: var(--firstBGColor);
+}
+
+#feature-part .feature-head p {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#feature-part .feature-head h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: var(--poppinsFont);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#feature-part .feature-thumbs {
+  background-color: var(--colorWhite);
+  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out .3s;
+  -moz-transition: all ease-in-out .3s;
+  -ms-transition: all ease-in-out .3s;
+  -o-transition: all ease-in-out .3s;
+}
+
+#feature-part .feature-thumbs:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.45);
+}
+
+#feature-part .feature-thumbs h3 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#feature-part .feature-thumbs p {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+#divider-part .divider-content {
+  background: var(--dividerBGColor);
+}
+
+/* =======================================
+            Features part End
+========================================== */
+
+/* =======================================
+          OurClients part Start
+========================================== */
+#ourclients-part {
+  border: 1px solid #0000007d;
+  background: var(--firstBGColor);
+}
+
+#ourclients-part .clients-title h2 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#ourclients-part .clients-title p {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+#ourclients-part .clients-qoutes h3 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+#ourclients-part .clients-avatar h4 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#ourclients-part .clients-avatar p {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ===================================
+        OurClients part End
+====================================== */
+
+/* ===================================
+          FAQ Part Start
+====================================== */
+#faq-part .faq-title h2 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#faq-part .faq-title a {
+  color: var(--secondBlue);
+  text-align: center;
+  font-family: var(--poppinsFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#faq-part .faq-title a:hover {
+  color: #d33216;
+}
+
+#faq-part .faq-accordion span {
+  color: var(--secondBlue);
+  text-align: center;
+  font-family: var(--poppinsFont);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#faq-part .faq-accordion .accordion-header {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#faq-part .faq-accordion .accordion-body {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  opacity: 0.87;
+}
+
+/* =======================================
+              FAQ Part End
+========================================== */
+
+/* =======================================
+          Inquiry Part Start
+========================================== */
+#inquiry-part .inquiry-overlay {
+  background: #1c1e5380;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#inquiry-part .inquiry-overlay h2 {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 54px;
+  font-weight: 600;
+}
+
+#inquiry-part .inquiry-overlay p {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#inquiry-part .inquiry-form {
+  background: var(--Tint-blue);
+}
+
+#inquiry-part .inquiry-form h3 {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#inquiry-part .inquiry-form p {
+  color: var(--firstBGColor);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+#inquiry-part .all-input {
+  border-radius: 8px;
+  border: 1.5px solid #ffffff0d;
+  background: transparent;
+  color: var(--colorWhite);
+}
+
+#inquiry-part .form-control:focus {
+  border-color: var(--colorWhite);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+#inquiry-part .all-input::placeholder {
+  color: var(--firstBGColor);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+#inquiry-part .inquiry-btn {
+  color: var(--heroBtnTextColor);
+  font-family: var(--manropeFont);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 41px;
+  background: var(--colorYellow);
+  padding: 15px 100px;
+  border: none;
+}
+
+#inquiry-part .inquiry-btn:hover {
+  background: rgb(224, 165, 38);
+}
+
+#inquiry-part .getintouch-link {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#inquiry-part .getintouch-link:hover {
+  color: #ff4800;
+}
+
+/* ===================================
+          Inquiry Part End
+====================================== */
+
+/* ===================================
+          Blog Part Start
+====================================== */
+#blog-part .blog-head h2 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#blog-part .blog-thumb .blog-date {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+#blog-part .blog-thumb h4 {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#blog-part .blog-thumb .blog-details {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+#blog-part .blog-thumb .readmore-link {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#blog-part .blog-thumb .readmore-link:hover {
+  color: peru;
+}
+
+/* ===================================
+          Blog Part End
+====================================== */
+/* ===================================
+          Footer Part Head Start
+====================================== */
+#footer-part {
+  background: var(--Tint-blue);
+}
+
+#footer-part .footer-logo-title {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-right: 4px;
+}
+
+#footer-part .email-area {
+  background: var(--colorYellow);
+}
+
+#footer-part .email-area p {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#footer-part .email-area a {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+#footer-part .email-area a:hover {
+  color: red;
+}
+
+#footer-part .social-area h2 {
+  color: var(--colorWhite);
+  font-family: var(--poppinsFont);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#footer-part .social-area p {
+  color: var(--firstBGColor);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+}
+
+#footer-part .social-area .social-icons .facebook .nav-link {
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+}
+
+#footer-part .social-area .social-icons .facebook .nav-link:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+#footer-part .social-area .social-icons .twitter .nav-link {
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+}
+
+#footer-part .social-area .social-icons .twitter .nav-link:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+#footer-part .social-area .social-icons .instagram .nav-link {
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+}
+
+#footer-part .social-area .social-icons .instagram .nav-link:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+#footer-part .social-area .social-icons .linkedin .nav-link {
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+}
+
+#footer-part .social-area .social-icons .linkedin .nav-link:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+/* ===================================
+          Footer Part Head End
+====================================== */
+
+/* ===================================
+          Footer Part Footer Start
+====================================== */
+#navbar-part-end .tog-btn {
+  box-shadow: none;
+}
+
+#navbar-part-end .copyright-text {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#navbar-part-end .footer-link ul li a {
+  color: var(--Dark-blue);
+  font-family: var(--poppinsFont);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#navbar-part-end .footer-link ul li a:hover {
+  color: deeppink
+}
+
+/* ===================================
+          Footer Part Footer End
+====================================== */
+
